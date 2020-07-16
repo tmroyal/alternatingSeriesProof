@@ -201,7 +201,7 @@
       return drawError(n-1, estSum, sum, y-0.05, draw);
     })
     .then(()=>{
-      if (n <= 10){
+      if (n < 10){
         loop(n, newSum, y, draw);
       }
     });
